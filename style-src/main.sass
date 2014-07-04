@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand)
+
+$menu-background: rgb(66, 66, 66)
+$menu-highlight: rgb(114, 114, 114)
+$menu-height: 56px
+$green: rgb(4, 168, 101)
+
+body
+  font-family: Patrick Hand
+
+.nav
+  top: 0
+  position: fixed
+  width: 100%
+  background-color: $menu-background
+  ul
+    padding: 0 100px
+    clear: none
+  li
+    padding: 20px 100px
+    text-align: center
+    float: left
+    color: white
+
+    &:hover
+      background-color: $menu-highlight
+
+.content
+  margin-top: $menu-height
+
+h1
+  font-size: 5rem
+  line-height: 150%
+h2
+  font-size: 2rem
+
+.home
+  text-align: center
+  padding: 200px 0
+  background-color: $green
+  color: white

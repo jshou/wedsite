@@ -1,9 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise|Amatic+SC|Shadows+Into+Light+Two)
+@font-face
+  font-family: 'baskerville'
+  src: url('/fonts/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/librebaskerville-regular-webfont.woff') format('woff'), url('/fonts/librebaskerville-regular-webfont.ttf') format('truetype'), url('/fonts/librebaskerville-regular-webfont.svg#libre_baskervilleregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'bullet'
+  src: url('bite_bullet.eot?#iefix') format('embedded-opentype'), url('/fonts/bite_bullet.woff') format('woff'), url('/fonts/bite_bullet.ttf') format('truetype'), url('/fonts/bite_bullet.svg#bite___bulletmedium') format('svg')
+  font-weight: normal
+  font-style: normal
 
 $menu-background: rgb(66, 66, 66)
 $menu-highlight: rgb(114, 114, 114)
 $menu-height: 56px
 $green: rgb(4, 168, 101)
+
+body
+  font-family: baskerville
 
 h1
   font-size: 5rem
@@ -12,7 +25,7 @@ h2
   font-size: 2rem
 
 .nav
-  font-family: Amatic SC
+  font-family: bullet
   top: 0
   position: fixed
   width: 100%
@@ -37,7 +50,7 @@ h2
   padding: 50px 300px
 
 .home
-  font-family: Shadows Into Light Two
+  font-family: bullet
   text-align: center
   padding: 200px 0
   background-color: $green

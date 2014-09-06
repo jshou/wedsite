@@ -34,6 +34,7 @@ h2
   position: fixed
   width: 100%
   background-color: $menu-background
+  z-index: 1
   ul
     padding: 0 100px
     clear: none
@@ -54,8 +55,25 @@ h2
   padding: 50px 300px
 
 .home
+  height: 530px
+  padding: 2rem 0
   font-family: bullet
   text-align: center
-  padding: 200px 0
   background-color: $soapstone
   color: $cranberry
+
+  .wreath
+    display: block
+    margin: 0 auto
+    width: 45%
+
+    &.bottom
+      position: relative
+      top: -75px
+      width: 35%
+
+  .banner
+    position: relative
+    top: -80px
+    h1
+      line-height: 100%

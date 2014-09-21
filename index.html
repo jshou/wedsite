@@ -10,12 +10,13 @@
       <ul>
         <li><a href="#event-info">event info</a></li>
         <li><a href="#about-us">about us</a></li>
+        <li><a href="#rsvp">rsvp</a></li>
         <li><a href="#registry">registry</a></li>
       </ul>
     </div>
 
     <div class="content">
-      <div class="section home">
+      <div class="section" id="home">
         <img class="wreath" src="images/border_top.png" alt="Flower border">
         <div class="banner">
           <h1>rosanna sze</h1>
@@ -25,26 +26,27 @@
         <img class="wreath bottom" src="images/border_bottom.png" alt="Flower border">
         <h3 class="subtitle">We're getting married! Come boogie.</h3>
       </div>
-      <div class="section event-info" id="event-info">
-        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Georgetown%20Stables%20980%20S%20Nebraska%20St.%20&key=AIzaSyCC-l4or63iHNuC8bR7GLcOYwClr-GasOQ"></iframe>
-        <h2>We're getting married!</h2>
+      <div class="section" id="event-info">
+        <div class="event-text">
+          <h3>We're getting married!</h3>
 
-        <h3>Please come hang out with us at the <em>Georgetown Stables</em>
-          on <em>February 8th, 2015</em> at <em>4pm</em>. Dinner and dancing immediately to follow.</h3>
+          <h4>Please come hang out with us at the<br/>
+            <em>Georgetown Stables</em>
+            on <em>February 8th, 2015</em> at <em>4pm</em>.<br/>
+            Dinner and dancing immediately to follow.</h4>
 
-        Georgetown Stables
-        980 S Nebraska St.
-        Seattle, WA 98108
-
-        Please RSVP by
-        September 30th, 2014
+          <h4>Please <a href="#rsvp">RSVP</a> by September 30th, 2014</h4>
+        </div>
+        <iframe id="map" width="400" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Georgetown%20Stables%20980%20S%20Nebraska%20St.%20&key=AIzaSyCC-l4or63iHNuC8bR7GLcOYwClr-GasOQ"></iframe>
+      </div>
+      <div class="section" id="about-us">
+        These are some words about some stuff.
+      </div>
+      <div class="section" id="rsvp">
 
         <iframe src="https://docs.google.com/forms/d/1XD2YxBMD14h5FJxuBvGHVK6HRckN_w-HEJlKEhgPhGg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
-      <div class="section about" id="about-us">
-        These are some words about some stuff.
-      </div>
-      <div class="section registry" id="registry">Here our links to our registry.</div>
+      <div class="section" id="registry">Here our links to our registry.</div>
     </div>
   </body>
 </html>

@@ -25,6 +25,9 @@ $darkred: #8b294c
 body
   font-family: baskerville
 
+h1,h2,h3,h4,h5,h6
+  margin-bottom: 2rem
+
 h1
   font-size: 5rem
   line-height: 150%
@@ -48,7 +51,7 @@ h3
     text-align: center
     float: left
     color: white
-    width: 33.3%
+    width: 25%
 
     &:hover
       background-color: $menu-highlight
@@ -67,7 +70,7 @@ h3
 .section
   padding: 50px 300px
 
-.home
+#home
   padding: 2rem 0
   font-family: bullet
   text-align: center
@@ -89,12 +92,24 @@ h3
     top: -80px
     h1
       line-height: 100%
+      margin: 0
 
   .subtitle
     font-variant: small-caps
     font-family: baskerville
     position: relative
     top: -40px
+    margin: 0
 
-.event-info
+#event-info
   background-color: $lightblue
+  height: 450px
+  .event-text
+    float: left
+    width: 50%
+    padding-right: 1rem
+  h4
+    line-height: 1.5rem
+  #map
+    float: left
+    width: 40%

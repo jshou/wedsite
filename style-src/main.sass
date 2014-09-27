@@ -22,9 +22,11 @@ $darkblue: #30798b
 $yellow: #ded56e
 $darkred: #8b294c
 $darkgray: #3d3d3d
+$green: #82bb5d
 
 body
   font-family: baskerville
+  color: $darkgray
 
 h1,h2,h3,h4,h5,h6
   margin-bottom: 2rem
@@ -106,23 +108,30 @@ h3
     top: -30px
     margin: 0
 
+.title
+  font-family: bullet
+  font-size: 3rem
+  line-height: 3rem
+
 #event-info
-  background-color: $lightblue
+  background-color: $green
   height: 450px
   .event-text
     float: left
     width: 50%
     padding-right: 1rem
-  h3
-    font-family: bullet
   h4
     line-height: 1.5rem
   #map
     float: left
     width: 40%
+    border: 10px solid white
 
 #the-story
+  background: url('/images/seamless_paper_texture.png')
   background-color: #f9edbd
+  img
+    width: 100%
 
 #rsvp
   padding: 0
@@ -135,3 +144,6 @@ h3
   visibility: hidden
   position: relative
   top: -100px
+
+#registry
+  background: $green
